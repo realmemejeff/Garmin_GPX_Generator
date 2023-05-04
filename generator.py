@@ -22,4 +22,3 @@ outfile = place + '.gpx'
 with open(outfile, 'w') as filee:
   for x in files_lines:
     filee.write("%s\n" % x)
-#59.95801247676483, 10.70991275970659
